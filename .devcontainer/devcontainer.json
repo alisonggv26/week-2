@@ -46,6 +46,7 @@
   },
 
   "postCreateCommand": "npm install && git config --global user.name 'Alison Granger' && git config --global user.email 'alison.granger.gan@gmail.com'",
+  "postStartCommand": "npm run dev",
 
   "remoteUser": "node"
 }
